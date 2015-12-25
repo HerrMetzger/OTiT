@@ -2,7 +2,7 @@ var main = function(){
 
 	$.ajax({
 		type: 'GET',
-		url: 'http://0.0.0.0:8080/otit',
+		url: '/otit',
 		dataType: 'json',
 		success: function(data){
 			var names = data.names;
@@ -14,7 +14,7 @@ var main = function(){
 
 	$.ajax({
 		type: 'GET',
-		url: 'http://0.0.0.0:8080/blanko',
+		url: '/blanko',
 		dataType: 'json',
 		success: function(data){
 			var names = data.names;
@@ -25,7 +25,7 @@ var main = function(){
 	});
 	$.ajax({
 		type: 'GET',
-		url: 'http://0.0.0.0:8080/sigma',
+		url: '/sigma',
 		dataType: 'json',
 		success: function(data){
 			var names = data.names;
@@ -151,7 +151,7 @@ var main = function(){
 		$('.nimikentta').val('');
 		$('.sposti').val('');
 		$('.btn').addClass('disabled');
-		$.post("http://0.0.0.0:8080/otit", JSON.stringify({"name": post, "email": email})).done(function () {
+		$.post("/otit", JSON.stringify({"name": post, "email": email})).done(function () {
                 alert("Ilmoittautuminen vastaanotettu");
             });
 		});
@@ -163,7 +163,7 @@ var main = function(){
 		$('.nimikentta').val('');
 		$('.sposti').val('');
 		$('.btn').addClass('disabled');
-		$.post("http://0.0.0.0:8080/blanko", JSON.stringify({"name": post, "email": email})).done(function () {
+		$.post("/blanko", JSON.stringify({"name": post, "email": email})).done(function () {
                 alert("Ilmoittautuminen vastaanotettu");
                 });
 		});
@@ -175,7 +175,7 @@ var main = function(){
 		$('.nimikentta').val('');
 		$('.sposti').val('');
 		$('.btn').addClass('disabled');
-		$.post("http://0.0.0.0:8080/sigma", JSON.stringify({"name": post, "email": email})).done(function () {
+		$.post("/sigma", JSON.stringify({"name": post, "email": email})).done(function () {
             alert("Ilmoittautuminen vastaanotettu");
             });
 		});
