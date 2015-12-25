@@ -1,0 +1,2 @@
+{"name":"Veijo Lahtinen","email":"veijo_666@gmail.com"}
+{"name":"Piia Perkele","email":"piia.perkele@hotmail.com"}
