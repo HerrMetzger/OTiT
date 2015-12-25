@@ -1,6 +1,1 @@
 {"name":"Zacharias Hellberg","email":"zacharias.hellberg@student.oulu.fi"}
-{"name":"Antti Möttönen","email":"antti.mottonen@oulu.fi"}
-{"name":"Fredrik Fitta","email":"fredrik.f@gmail.com"}
-{"name":"Yolo Moroson","email":"yölö.mörö@ööö.cåm"}
-{"name":"ASSARI ADOLF GIBLAAA","email":"adolf.assari@hitler.nz"}
-{"name":"Christian Hellberg","email":"christian.hellberg2@gmail.com"}

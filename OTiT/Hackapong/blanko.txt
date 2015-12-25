@@ -1,2 +1,0 @@
-{"name":"Olli-Pekka Saari","email":"olli.saari@student.oulu.fi"}
-{"name":"Anna Runtti","email":"runkq@whatevs.com"}
