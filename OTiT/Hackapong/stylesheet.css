@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "minecraft";
+    src: url('minecraft.ttf')
+}
+
 .nav i {
 	display: inline;
 	text-transform: uppercase;
