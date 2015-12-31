@@ -2,7 +2,7 @@ var main = function(){
 
 	$.ajax({
 		type: 'GET',
-		url: '/otit',
+		url: 'http://www.otit.fi/hackapong/otit',
 		dataType: 'json',
 		success: function(data){
 			var names = data.names;
@@ -14,7 +14,7 @@ var main = function(){
 
 	$.ajax({
 		type: 'GET',
-		url: '/blanko',
+		url: 'http://www.otit.fi/hackapong/blanko',
 		dataType: 'json',
 		success: function(data){
 			var names = data.names;
@@ -25,7 +25,7 @@ var main = function(){
 	});
 	$.ajax({
 		type: 'GET',
-		url: '/sigma',
+		url: 'http://www.otit.fi/hackapong/sigma',
 		dataType: 'json',
 		success: function(data){
 			var names = data.names;
@@ -151,7 +151,7 @@ var main = function(){
 		$('.nimikentta').val('');
 		$('.sposti').val('');
 		$('.btn').addClass('disabled');
-		$.post("/otit", JSON.stringify({"name": post, "email": email})).done(function () {
+		$.post("http://www.otit.fi/hackapong/otit", JSON.stringify({"name": post, "email": email})).done(function () {
                 alert("Ilmoittautuminen vastaanotettu");
             });
 		});
@@ -163,7 +163,7 @@ var main = function(){
 		$('.nimikentta').val('');
 		$('.sposti').val('');
 		$('.btn').addClass('disabled');
-		$.post("/blanko", JSON.stringify({"name": post, "email": email})).done(function () {
+		$.post("http://www.otit.fi/hackapong/blanko", JSON.stringify({"name": post, "email": email})).done(function () {
                 alert("Ilmoittautuminen vastaanotettu");
                 });
 		});
@@ -175,7 +175,7 @@ var main = function(){
 		$('.nimikentta').val('');
 		$('.sposti').val('');
 		$('.btn').addClass('disabled');
-		$.post("/sigma", JSON.stringify({"name": post, "email": email})).done(function () {
+		$.post("http://www.otit.fi/hackapong/sigma", JSON.stringify({"name": post, "email": email})).done(function () {
             alert("Ilmoittautuminen vastaanotettu");
             });
 		});
