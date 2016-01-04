@@ -140,8 +140,8 @@ body {
 
 .info {
 	background-color: rgb(255,255,255);
-	top: -250px;
-	height: 250px;
+	top: -450px;
+	height: 450px;
 	position: fixed;
 	width: 100%;
 	font-family: 'lucida console';
