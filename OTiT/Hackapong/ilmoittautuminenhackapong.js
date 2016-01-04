@@ -80,7 +80,7 @@ var main = function(){
 
 	$('.xinfo').click(function(){
 		$('.info').animate({
-			top: '-300px'
+			top: '-450px'
 		}, 200);
 		/*$('body').animate({
 			top: '0px'
