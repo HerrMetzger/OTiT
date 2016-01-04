@@ -45,7 +45,7 @@ var main = function(){
 			left: '285px'
 		}, 200);
 		$('.info').animate({
-			top: '-300px'
+			top: '-450px'
 		}, 200);
 	});
 
@@ -124,7 +124,7 @@ var main = function(){
 
 	$('.ilmot').click(function(){
 		$('.info').animate({
-			top: '-300px'
+			top: '-450px'
 		}, 200);
 		$('.ilmotlista').animate({
 			right: '0px'
