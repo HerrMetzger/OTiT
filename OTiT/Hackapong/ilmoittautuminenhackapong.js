@@ -186,7 +186,7 @@ var main = function(){
 			if(charactersLeft < 0){
 				$('.btn').addClass('disabled');
 			}
-			else if(charactersLeft > 23){
+			else if(charactersLeft > 25){
 				$('.btn').addClass('disabled');
 			}
 			else{
@@ -196,7 +196,7 @@ var main = function(){
 					if(charactersLeft < 0){
 						$('.btn').addClass('disabled');
 					}
-					else if(charactersLeft > 40){
+					else if(charactersLeft > 45){
 						$('.btn').addClass('disabled');
 					}
 					else{
@@ -213,7 +213,7 @@ var main = function(){
 		if(charactersLeft < 0){
 			$('.btn').addClass('disabled');
 		}
-		else if(charactersLeft > 40){
+		else if(charactersLeft > 45){
 			$('.btn').addClass('disabled');
 		}
 		else{
@@ -223,7 +223,7 @@ var main = function(){
 			if(charactersLeft < 0){
 				$('.btn').addClass('disabled');
 			}
-			else if(charactersLeft > 23){
+			else if(charactersLeft > 25){
 				$('.btn').addClass('disabled');
 			}
 			else{
