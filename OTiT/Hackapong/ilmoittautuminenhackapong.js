@@ -2,7 +2,7 @@ var main = function(){
 
 	$.ajax({
 		type: 'GET',
-		url: window.location.href + '/hackapong/ajax/otit',
+		url: window.location.href + 'ajax/otit',
 		dataType: 'json',
 		success: function(data){
 			var names = data.names;
@@ -14,7 +14,7 @@ var main = function(){
 
 	$.ajax({
 		type: 'GET',
-		url:  window.location.href + '/hackapong/ajax/blanko',
+		url:  window.location.href + 'ajax/blanko',
 		dataType: 'json',
 		success: function(data){
 			var names = data.names;
@@ -25,7 +25,7 @@ var main = function(){
 	});
 	$.ajax({
 		type: 'GET',
-		url:  window.location.href + '/hackapong/ajax/sigma',
+		url:  window.location.href + 'ajax/sigma',
 		dataType: 'json',
 		success: function(data){
 			var names = data.names;
@@ -151,7 +151,7 @@ var main = function(){
 		$('.nimikentta').val('');
 		$('.sposti').val('');
 		$('.btn').addClass('disabled');
-		$.post( window.location.href + '/hackapong/ajax/otit', JSON.stringify({"name": post, "email": email})).done(function () {
+		$.post( window.location.href + 'ajax/otit', JSON.stringify({"name": post, "email": email})).done(function () {
                 alert("Ilmoittautuminen vastaanotettu");
             });
 		});
@@ -163,7 +163,7 @@ var main = function(){
 		$('.nimikentta').val('');
 		$('.sposti').val('');
 		$('.btn').addClass('disabled');
-		$.post( window.location.href + '/hackapong/ajax/blanko', JSON.stringify({"name": post, "email": email})).done(function () {
+		$.post( window.location.href + 'ajax/blanko', JSON.stringify({"name": post, "email": email})).done(function () {
                 alert("Ilmoittautuminen vastaanotettu");
                 });
 		});
@@ -175,7 +175,7 @@ var main = function(){
 		$('.nimikentta').val('');
 		$('.sposti').val('');
 		$('.btn').addClass('disabled');
-		$.post( window.location.href + '/hackapong/ajax/sigma', JSON.stringify({"name": post, "email": email})).done(function () {
+		$.post( window.location.href + 'ajax/sigma', JSON.stringify({"name": post, "email": email})).done(function () {
             alert("Ilmoittautuminen vastaanotettu");
             });
 		});
